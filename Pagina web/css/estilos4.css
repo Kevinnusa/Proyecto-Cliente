@@ -1,0 +1,112 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: arial;
+}
+header{
+	background: url(img/fondo1.jpg);
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+section{
+	min-width: 1000px;
+	margin left: 30px;
+	padding: 30px;
+}
+.titulo{
+	font-size: 100px;
+	font-family: bold;
+}
+.titulo a{
+	font-size: 60px;
+}
+.con{
+	text-align: center;
+}
+.con h2{
+	font-size: 40px;
+}
+header nav{
+	margin-top: 80px;
+}
+.con a{
+	color: black;
+	text-decoration: none;
+	font-size: 20px;
+	margin: 70px;
+
+}
+.con a:hover{
+	background-color: #333;
+}
+
+.registro h2{
+	text-align: center;
+	font-size: 30px;
+}
+
+.registro p{
+	text-align: center;
+	font-size: 30px;
+	color: #002793;
+}
+form {
+	background: url(img/brenda1.png); 
+	background-repeat: no-repeat;
+	font-size: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+	margin-top: 40px;
+	height: 400px;
+}
+.espacio{
+	margin-left: 30%;
+}
+.boton{
+	margin:40px;
+	background-color: #CE2B1C;
+	font-size: 20px;
+	border-radius: 4px;
+}
+.extra{
+	background-color: #A0F44C;
+	margin:10px;
+	border-radius: 10px;
+}
+.extra h2{
+	font-size: 30px;
+	text-align: center;
+	color: #7A47C6;
+}
+.ima{
+	width: 40%;
+	margin: 40px;
+}
+.ima1{
+	width: 30%;
+	position: absolute;
+	margin: 40px;
+	
+}
+form a{
+	margin-left: 30%;
+}
+footer{
+	width: 100%
+	height: 80px;
+	background-color: #757575;
+	color: black;
+	text-align: center;
+	font-size: 20px;
+	margin-top: 30px;
+}
+footer a{
+	margin: 40px;
+}
+footer p{
+	font-size: 30px;
+}
