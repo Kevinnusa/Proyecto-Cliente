@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eliminar datos</title>
+	<link rel="stylesheet" type="text/css" href="css/eliminar.css">
+</head>
+<body>
+	<div class="eliminar">
+	<h3 align="center" class="titulo">Eliminar datos</h3>
+	<form action="elimina.php" method="POST" >
+		Ingresa la clave para poder eliminar algun dato: <input type="password" name="contra"><br/><br/>
+		Ingresa el nombre de la persona a la que se le borraran todos los registros: <input type="text" name="nombre"><br/><br/>
+		<input type="submit" value="Eliminar registro" name="eliminar" class="boton">
+	</form>
+</div>
+<div class="editar">
+	<h3 align="center" class="titulo">Editar datos</h3>
+	<form action="editar.php" method="POST">
+		Ingresa la clave para poder editar datos: <input type="password" name="contra"><br/><br/>
+		Ingresa el nombre de la persona a la que quieres aplicar los cambios:<input type="text" name="nombre"><br/><br/>
+		Nuevo telefono: <input type="text" name="telefono"><br/><br/>
+		Nueva direccion: <input type="text" name="direccion"><br/><br/>
+		Nuevo dia: <select name="dia">
+			<option>selecciona</option>
+			<option>Lunes</option>
+			<option>Martes</option>
+			<option>Miercoles</option>
+			<option>Jueves</option>
+			<option>Viernes</option>
+			<option>Sabado</option>
+			<option>Domingo</option>
+
+		 </select><br/><br/>
+		Nueva hora: <select name="hora">
+			<option>selecciona</option>
+			<option>3:00pm-4:00pm</option>
+			<option>4:00pm-5:00pm</option>
+			<option>5:00pm-6:00pm</option>
+		</select><br/><br/>
+		<input type="submit" value="Editar datos" name="editar" class="boton">
+	</form>
+</div>
+
+</body>
+</html>
