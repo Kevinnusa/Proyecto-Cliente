@@ -1,0 +1,23 @@
+.titulo{
+	font-size: 45px;
+	color: #441717;
+}
+.eliminar{
+	text-align: center;
+	background-color: #E13B3B;
+	font-size: 20px;
+	width: 100%;
+}
+.editar{
+	text-align: center;
+	background-color: #E6E641;
+	font-size: 20px;
+	width: 100%;
+}
+.boton{
+	text-align: center;
+	margin:40px;
+	background-color: #3535A5;
+	font-size: 20px;
+	border-radius: 4px;
+	} 
